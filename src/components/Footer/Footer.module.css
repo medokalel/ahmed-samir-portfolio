@@ -1,0 +1,50 @@
+.footer {
+  background-color: #0a0e17;
+  border-top: 1px solid #1a2332;
+  padding: 25px 0;
+  color: #64748b;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.brandText {
+  color: #00ff88;
+  font-family: 'Courier New', monospace;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.copyright {
+  font-size: 0.75rem;
+  font-family: 'Courier New', monospace;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+}
+
+.links a {
+  color: #64748b;
+  text-decoration: none;
+  font-size: 0.8rem;
+  transition: color 0.3s ease;
+}
+
+.links a:hover {
+  color: #00ff88;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    text-align: center;
+  }
+}

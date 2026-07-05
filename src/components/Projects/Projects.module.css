@@ -1,0 +1,137 @@
+.projects {
+  background-color: #0a0e17;
+  padding: 80px 0;
+  color: #e2e8f0;
+}
+
+.sectionTitle {
+  font-family: 'Courier New', monospace;
+  font-size: 1.5rem;
+  color: #00ff88;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+.bracket {
+  color: #64748b;
+}
+
+.card {
+  background-color: #1a2332;
+  border: 1px solid #2d3748;
+  border-radius: 12px;
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  border-color: #00ff88;
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.terminalHeader {
+  background-color: #0f172a;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid #2d3748;
+}
+
+.dots {
+  display: flex;
+  gap: 6px;
+}
+
+.dotRed, .dotYellow, .dotGreen {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.dotRed { background-color: #ff5f56; }
+.dotYellow { background-color: #ffbd2e; }
+.dotGreen { background-color: #27c93f; }
+
+.category {
+  margin-left: auto;
+  font-size: 0.7rem;
+  color: #64748b;
+  font-family: 'Courier New', monospace;
+  letter-spacing: 1px;
+}
+
+.cardBody {
+  padding: 25px;
+  flex: 1;
+}
+
+.projectName {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #f1f5f9;
+  margin-bottom: 12px;
+}
+
+.description {
+  font-size: 0.85rem;
+  color: #94a3b8;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tag {
+  background-color: rgba(0, 255, 136, 0.1);
+  color: #00ff88;
+  font-size: 0.7rem;
+  padding: 4px 10px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 255, 136, 0.2);
+  font-family: 'Courier New', monospace;
+}
+
+.tag i {
+  font-size: 0.6rem;
+  margin-right: 4px;
+}
+
+.cardFooter {
+  padding: 0 25px 25px;
+}
+
+.btnView {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #00ff88;
+  color: #0a0e17;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btnView:hover {
+  background-color: #00cc6a;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 255, 136, 0.3);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .projects {
+    padding: 60px 20px;
+  }
+}
