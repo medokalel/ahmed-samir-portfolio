@@ -65,7 +65,7 @@ const Navbar = () => {
             ))}
           </div>
           
-          <a href="../../assets/files/Ahmed_Samir_Resume.pdf" download className={styles.resumeBtn}>
+          <a href="#" className={styles.resumeBtn}>
             <i className="fa-solid fa-download"></i> RESUME
           </a>
           

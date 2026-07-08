@@ -15,8 +15,8 @@ const Footer = () => {
           </div>
           
           <div className={styles.links}>
-            <a href="https://github.com/A-Samir-dev" target="_blank" rel="noopener noreferrer">GitHub</a>
-            <a href="https://www.linkedin.com/in/ahmed-elhanfy/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="#" rel="noopener noreferrer">GitHub</a>
+            <a href="#" rel="noopener noreferrer">LinkedIn</a>
             <a href="#">Documentation</a>
           </div>
         </div>

@@ -20,12 +20,12 @@ const Contact= () => {
               <span>Email</span>
             </a>
             
-            <a href="https://github.com/A-Samir-dev" target="_blank" rel="noopener noreferrer" className={styles.link}>
+            <a href="#" rel="noopener noreferrer" className={styles.link}>
               <i className="fa-brands fa-github"></i>
               <span>GitHub</span>
             </a>
             
-            <a href="https://www.linkedin.com/in/ahmed-elhanfy/" target="_blank" rel="noopener noreferrer" className={styles.link}>
+            <a href="#" rel="noopener noreferrer" className={styles.link}>
               <i className="fa-brands fa-linkedin"></i>
               <span>LinkedIn</span>
             </a>
